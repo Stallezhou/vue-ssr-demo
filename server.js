@@ -25,7 +25,7 @@ app.get('*',(req,res)=>{
     </html>
     `)
   })
-  res.end(`您当前访问的是${req.url}`)
+  res.end(`您当前访问的是${req.url}!`)
 
 })
 app.listen('4000',()=>{
