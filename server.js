@@ -1,9 +1,10 @@
 const Vue = require('vue')
 const express = require('express')
+var cors = require('cors');
 const render = require('vue-server-renderer').createRenderer()
 
 const app = express()
-
+app.use(cors())
 app.get('*',(req,res)=>{
   const app = new Vue({
    data:{
