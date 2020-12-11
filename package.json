@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Stallezhou/vue-ssr-demo/issues"
   },
-  "homepage": "https://github.com/Stallezhou/vue-ssr-demo#readme"
+  "homepage": "https://github.com/Stallezhou/vue-ssr-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
