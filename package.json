@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Stallezhou/vue-ssr-demo#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "vue": "^2.6.12",
+    "vue-server-renderer": "^2.6.12"
   }
 }
